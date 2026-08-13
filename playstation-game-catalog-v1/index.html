@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#05070d">
+  <meta name="description" content="کاتالوگ بازی‌های PlayStation 4 و PlayStation 5">
+  <title>PlayStation Game Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-mark">PS</span>
+      <span><b>PlayStation</b><small>Game Catalog</small></span>
+    </a>
+    <nav>
+      <a href="#games">کاتالوگ</a>
+      <a href="#new">بازی‌های جدید</a>
+      <a href="#about">درباره</a>
+    </nav>
+    <button class="update-btn" id="updateBtn">🔄 بروزرسانی کاتالوگ</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <span class="eyebrow">PLAYSTATION 4 • PLAYSTATION 5</span>
+        <h1>کاتالوگ بازی‌های<br><strong>PlayStation</strong></h1>
+        <p>جستجو و بررسی بازی‌های PS4 و PS5 با اطلاعاتی مثل تاریخ انتشار، ژانر، حجم، سازنده و ناشر.</p>
+        <div class="search-wrap">
+          <span>⌕</span>
+          <input id="search" type="search" placeholder="نام بازی را جستجو کنید..." autocomplete="off">
+        </div>
+      </div>
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+    </section>
+
+    <section class="toolbar" id="games">
+      <div class="filter-group">
+        <button class="filter active" data-platform="all">همه</button>
+        <button class="filter" data-platform="PS4">PS4</button>
+        <button class="filter" data-platform="PS5">PS5</button>
+      </div>
+      <label class="select-box">
+        <span>ژانر</span>
+        <select id="genre">
+          <option value="all">همه ژانرها</option>
+        </select>
+      </label>
+      <label class="select-box">
+        <span>مرتب‌سازی</span>
+        <select id="sort">
+          <option value="newest">جدیدترین</option>
+          <option value="oldest">قدیمی‌ترین</option>
+          <option value="az">الفبایی</option>
+          <option value="za">الفبایی معکوس</option>
+        </select>
+      </label>
+      <div class="count" id="count"></div>
+    </section>
+
+    <section class="section" id="new">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">LATEST</span>
+          <h2>بازی‌های جدید</h2>
+        </div>
+        <span class="section-line"></span>
+      </div>
+      <div class="games-grid" id="gamesGrid"></div>
+      <div class="empty" id="empty" hidden>بازی‌ای با این مشخصات پیدا نشد.</div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <span class="eyebrow">DATA & UPDATES</span>
+        <h2>کاتالوگ همیشه در حال بروزرسانی</h2>
+        <p>داده‌ها در فایل JSON نگهداری می‌شوند و GitHub Actions می‌تواند به‌صورت دوره‌ای آن‌ها را بروزرسانی و سایت را دوباره منتشر کند.</p>
+      </div>
+      <div class="about-card">
+        <span>آخرین بروزرسانی داده</span>
+        <strong id="lastUpdate">—</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>PlayStation Game Catalog</span>
+    <span>اطلاعات فروشگاه با لینک به منبع رسمی PlayStation Store</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
