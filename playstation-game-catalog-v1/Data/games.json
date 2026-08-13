@@ -1,0 +1,133 @@
+[
+  {
+    "id": "god-of-war-ragnarok",
+    "name": "God of War Ragnarök",
+    "platforms": [
+      "PS4",
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2022-11-08",
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "به همراه Kratos و Atreus در سفری اسطوره‌ای در نه جهان حرکت کنید و برای نبرد نهایی Ragnarök آماده شوید.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/de-de/concept/10001850",
+    "catalogUpdated": "2026-08-13"
+  },
+  {
+    "id": "marvels-spider-man-2",
+    "name": "Marvel’s Spider-Man 2",
+    "platforms": [
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2023-10-20",
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "developer": "Insomniac Games",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "داستان Peter Parker و Miles Morales را در یک ماجراجویی بزرگ در شهر نیویورک دنبال کنید.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/de-de/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2",
+    "catalogUpdated": "2026-08-13"
+  },
+  {
+    "id": "the-last-of-us-part-ii-remastered",
+    "name": "The Last of Us Part II Remastered",
+    "platforms": [
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2024-01-19",
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "developer": "Naughty Dog",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "نسخه Remastered بازی تحسین‌شده The Last of Us Part II با بهبودهای فنی و حالت‌های جدید.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/",
+    "catalogUpdated": "2026-08-13"
+  },
+  {
+    "id": "horizon-forbidden-west",
+    "name": "Horizon Forbidden West",
+    "platforms": [
+      "PS4",
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2022-02-18",
+    "genre": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "developer": "Guerrilla",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "به Aloy در سفرش به غرب ممنوعه بپیوندید؛ سرزمینی خطرناک با ماشین‌های عظیم و رازهای تازه.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/",
+    "catalogUpdated": "2026-08-13"
+  },
+  {
+    "id": "gran-turismo-7",
+    "name": "Gran Turismo 7",
+    "platforms": [
+      "PS4",
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2022-03-04",
+    "genre": [
+      "Racing",
+      "Simulation"
+    ],
+    "developer": "Polyphony Digital",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "تجربه‌ای عمیق از مسابقه، تیونینگ و مجموعه‌داری خودروها در Gran Turismo 7.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/",
+    "catalogUpdated": "2026-08-13"
+  },
+  {
+    "id": "ratchet-clank-rift-apart",
+    "name": "Ratchet & Clank: Rift Apart",
+    "platforms": [
+      "PS5"
+    ],
+    "size": "—",
+    "release": "2021-06-11",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Platformer"
+    ],
+    "developer": "Insomniac Games",
+    "publisher": "Sony Interactive Entertainment",
+    "description": "در یک ماجراجویی بین‌بعدی با Ratchet و Clank و سلاح‌های عجیب‌وغریب همراه شوید.",
+    "cover": "",
+    "screenshots": [],
+    "trailer": "",
+    "source": "https://store.playstation.com/",
+    "catalogUpdated": "2026-08-13"
+  }
+]
